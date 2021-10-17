@@ -21,7 +21,7 @@ Voici les raisons pour lesquelles j'ai créé ce repo Github
 * Rendez-vous dans resource `report` qui est directement à la racine du dossier `resources`
   * Ajoutez les admins que vous désirez dans le `local reportadmin`  (Voir l'exemple ci-dessous)
 
-  * ```lua
+```lua
 local reportadmin = {
     'discord:000000000000',
     'steam:111111111111',
@@ -32,7 +32,7 @@ local reportadmin = {
 * Rendez-vous dans la resource `fl_discordwhitelist` qui de trouve dans le dossier `resources/[discord]`
   * Complété le fichier `config.lua` avec les informations de votre propre bot discord pour utiliser le whitelist Discord (Voir l'exemple ci-dessous)
 
-  * ```lua
+```lua
 Config = {
 	DiscordToken = "XXXXXXX",
 	GuildId = "00000000",
@@ -48,7 +48,7 @@ Roles = {
 *-* Rendez-vous dans la resource `logs` qui se trouve dans le dossier `resources/[discord]`
   * Complétez la section `Config.webhooks` du fichier `config.lua` en ajoutant vos propres webhooks discord (Voir l'exemple ci-dessous)
 
-  * ```lua
+```lua
 Config.webhooks = {
 	all = "",		-- All logs will be send to this channel
 	chat = "",		-- Chat Message
