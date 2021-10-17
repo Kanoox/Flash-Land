@@ -60,9 +60,9 @@ Config.webhooks = {
 }
 ```
 
-- Rendez-vous dans la resource `fl_billing` qui se trouve dans le dossier `resources/[fl]/[esx]/[base]`
-- Modifiez les 2 webhooks aux lignes 22 et 33 dans le fichier `fl_billing/server.lua`. 
-- Ce sont des logs pour la facturation.
+* Rendez-vous dans la resource `fl_billing` qui se trouve dans le dossier `resources/[fl]/[esx]/[base]`
+  * Modifiez les 2 webhooks aux lignes 22 et 33 dans le fichier `fl_billing/server.lua`. 
+  * Ce sont des logs pour la facturation.
 
 - Rendez-vous dans la resource `fl_bans` qui se trouve dans le dossier `resources/[fl]/[core]`
 > Modifiez les 2 webhooks aux lignes 3 et 4 du fichier `fl_bans/config.lua`. 
