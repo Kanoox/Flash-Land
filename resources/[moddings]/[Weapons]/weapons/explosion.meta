@@ -1,0 +1,38 @@
+<CExplosionInfoManager>
+  <aExplosionTagData>
+    <Item>
+      <name>EXP_TAG_BOMB_GAS</name>
+      <damageAtCentre value="0.0" />
+      <damageAtEdge value="0.0" />
+      <networkPlayerModifier value="1.000000" />
+      <networkPedModifier value="1.000000" />
+      <endRadius value="6.500000" />
+      <initSpeed value="1.000000" />
+      <decayFactor value="0.00100" />
+      <forceFactor value="0.000000" />
+      <fRagdollForceModifier value="0.000000" />
+      <fSelfForceModifier value="0.000000" />
+      <directedWidth value="0.000000" />
+      <directedLifeTime value="25.000000" />
+      <camShakeName>GAMEPLAY_EXPLOSION_SHAKE</camShakeName>
+      <camShake value="0.500000" />
+      <camShakeRollOffScaling value="1.000000" />
+      <shockingEventVisualRangeOverride value="-1.000000" />
+      <shockingEventAudioRangeOverride value="-1.000000" />
+      <minorExplosion value="false" />
+      <vfxTagHashName>EXP_VFXTAG_BOMB_GAS</vfxTagHashName>
+      <fragDamage value="0.000000" />
+      <bAppliesContinuousDamage value="false" />
+      <bPostProcessCollisionsWithNoForce value="true" />
+      <bDamageVehicles value="false" />
+      <bDamageObjects value="false" />
+      <bOnlyAffectsLivePeds value="true" />
+      <bIgnoreExplodingEntity value="false" />
+      <bNoOcclusion value="false" />
+      <explodeAttachEntityWhenFinished value="false" />
+      <bCanSetPedOnFire value="false" />
+      <bUseDistanceDamageCalc value="true" />
+      <bIsSmokeGrenade value="true" />
+    </Item>
+  </aExplosionTagData>
+</CExplosionInfoManager>

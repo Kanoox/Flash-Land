@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Federal Investigation Bureau Police Pack -  Do not copy or redistribute without the author's permission. Jacobmaate -->
+
+<CVehicleModelInfoVariation>
+  <variationData>
+	<Item>
+      <modelName>ems</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            134
+            134
+            0
+            0
+            0
+            0
+          </indices>
+        </Item>
+      </colors>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+				  <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="72"/>
+      <sirenSettings value="240"/>
+    </Item>
+	</variationData>
+</CVehicleModelInfoVariation>

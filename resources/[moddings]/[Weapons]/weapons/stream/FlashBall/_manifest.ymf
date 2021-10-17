@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CPackFileMetaData>
+  <MapDataGroups/>
+  <HDTxdBindingArray>
+    <Item>
+      <assetType>AT_TXD</assetType>
+      <targetAsset>w_sg_bullpupshotgun</targetAsset>
+      <HDTxd>w_sg_bullpupshotgun+hi</HDTxd>
+    </Item>
+  </HDTxdBindingArray>
+  <imapDependencies/>
+  <imapDependencies_2/>
+  <itypDependencies_2/>
+  <Interiors/>
+</CPackFileMetaData>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfoVariation>
+	<variationData>
+	
+	<Item> <!-- mocpacker -->
+      <modelName>mocpacker</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0 
+            0
+            0 
+            156 
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>595_mocpacker_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police Guv Plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2013" />
+      <sirenSettings value="250" />
+    </Item>	
+	<Item> <!-- mocpacker2 -->
+      <modelName>mocpacker2</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            0 
+            0
+            0 
+            156 
+          </indices>
+          <liveries>
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>595_mocpacker_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges/>
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police Guv Plate</Name>
+            <Value value="100"/>
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="2013" />
+      <sirenSettings value="251" />
+    </Item>
+	
+	</variationData>
+</CVehicleModelInfoVariation>
