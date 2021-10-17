@@ -14,14 +14,14 @@ Voici les raisons pour lesquelles j'ai créé ce repo Github
 
 **Voici quelques petites choses à faire une fois la base téléchargée.**  
 
-- Mettez à jour la license FiveM dans le fichier `server.cfg` et remplissez les informations que vous désirez.
+* Mettez à jour la license FiveM dans le fichier `server.cfg` et remplissez les informations que vous désirez.
 
-- Importez le fichier `flashland.sql` dans votre base de données et mettez à jour la ligne 
+* Importez le fichier `flashland.sql` dans votre base de données et mettez à jour la ligne 
 
-- Rendez-vous dans resource `report` qui est directement à la racine du dossier `resources`
-- Ajoutez les admins que vous désirez dans le `local reportadmin`  (Voir l'exemple ci-dessous)
+* Rendez-vous dans resource `report` qui est directement à la racine du dossier `resources`
+  * Ajoutez les admins que vous désirez dans le `local reportadmin`  (Voir l'exemple ci-dessous)
 
-```lua
+  * ```lua
 local reportadmin = {
     'discord:000000000000',
     'steam:111111111111',
@@ -29,10 +29,10 @@ local reportadmin = {
 ```
 
 
-- Rendez-vous dans la resource `fl_discordwhitelist` qui de trouve dans le dossier `resources/[discord]`
-- Complété le fichier `config.lua` avec les informations de votre propre bot discord pour utiliser le whitelist Discord (Voir l'exemple ci-dessous)
+* Rendez-vous dans la resource `fl_discordwhitelist` qui de trouve dans le dossier `resources/[discord]`
+  * Complété le fichier `config.lua` avec les informations de votre propre bot discord pour utiliser le whitelist Discord (Voir l'exemple ci-dessous)
 
-```lua
+  * ```lua
 Config = {
 	DiscordToken = "XXXXXXX",
 	GuildId = "00000000",
@@ -45,10 +45,10 @@ Roles = {
 ```
 
 
-- Rendez-vous dans la resource `logs` qui se trouve dans le dossier `resources/[discord]`
-- Complétez la section `Config.webhooks` du fichier `config.lua` en ajoutant vos propres webhooks discord (Voir l'exemple ci-dessous)
+*-* Rendez-vous dans la resource `logs` qui se trouve dans le dossier `resources/[discord]`
+  * Complétez la section `Config.webhooks` du fichier `config.lua` en ajoutant vos propres webhooks discord (Voir l'exemple ci-dessous)
 
-```lua
+  * ```lua
 Config.webhooks = {
 	all = "",		-- All logs will be send to this channel
 	chat = "",		-- Chat Message
@@ -64,27 +64,28 @@ Config.webhooks = {
   * Modifiez les 2 webhooks aux lignes 22 et 33 dans le fichier `fl_billing/server.lua`. 
   * Ce sont des logs pour la facturation.
 
-- Rendez-vous dans la resource `fl_bans` qui se trouve dans le dossier `resources/[fl]/[core]`
-> Modifiez les 2 webhooks aux lignes 3 et 4 du fichier `fl_bans/config.lua`. 
-- Ce sont des logs pour les bans et unbans.
+* Rendez-vous dans la resource `fl_bans` qui se trouve dans le dossier `resources/[fl]/[core]`
+  * Modifiez les 2 webhooks aux lignes 3 et 4 du fichier `fl_bans/config.lua`. 
+  * Ce sont des logs pour les bans et unbans.
 
-- Rendez-vous dans la resource `fl_society` qui se trouve dans le dossier `resources/[fl]/[esx]/[base]`
-- Modifiez le webhook qui se trouve à la ligne 8 du fichier `fl_society/server/ads.lua`
-- Ce sont pour les logs des annonces du menu f5 pour les entreprises et le twitter.
+* Rendez-vous dans la resource `fl_society` qui se trouve dans le dossier `resources/[fl]/[esx]/[base]`
+  * Modifiez le webhook qui se trouve à la ligne 8 du fichier `fl_society/server/ads.lua`
+  * Ce sont pour les logs des annonces du menu f5 pour les entreprises et le twitter.
 
-- Rendez-vous dans la resource `es_extended` qui se trouve dans le dossier `resources/[fl]/[esx]`
-- Modifiez les 2 webhooks aux lignes 276 et 287 du fichier `es_extended/server/main.lua`. 
-- Ce sont pour les logs des gives d'items.
+* Rendez-vous dans la resource `es_extended` qui se trouve dans le dossier `resources/[fl]/[esx]`
+  * Modifiez les 2 webhooks aux lignes 276 et 287 du fichier `es_extended/server/main.lua`. 
+  * Ce sont pour les logs des gives d'items.
 
-- Rendez-vous dans la resource `fl_bank` qui se trouve dans le dossier `resources/[fl]/[jobs]`
-- Modifiez les 2 webhooks aux lignes 50 et 61 du fichier `fl_bank/server/sv_bank.lua`. 
-- Ce sont pour les logs des transferts d'argent.
+* Rendez-vous dans la resource `fl_bank` qui se trouve dans le dossier `resources/[fl]/[jobs]`
+  * Modifiez les 2 webhooks aux lignes 50 et 61 du fichier `fl_bank/server/sv_bank.lua`. 
+  * Ce sont pour les logs des transferts d'argent.
 
 
 ### Choses à savoir
 
 - Cette base utilise un Framework personnalisé ce qui veut dire que si vous importez/exportez des resources, vous devrez vous assurer d'utiliser les bonnes méthodes d'importation du ESX.
-- Il est possible qu'il manque plusieurs streams comme des véhicules ou mapping. C'est à vous de faire la recherche. N'hésitez pas à ouvrir un [issue](https://github.com/fasterplayer/Flash-Land/issues) discord si vous découvrez une erreur afin que je puisse la corriger pour les futurs utilisateurs.
+- Il est possible qu'il manque plusieurs streams comme des véhicules ou mapping. C'est à vous de faire la recherche. 
+- N'hésitez pas à ouvrir un [issue](https://github.com/fasterplayer/Flash-Land/issues) discord si vous découvrez une erreur afin que je puisse la corriger pour les futurs utilisateurs.
 
 
 ## Vous cherchez le meilleur bot pour votre serveur RP?
