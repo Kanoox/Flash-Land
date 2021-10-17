@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+	<meta charset="utf-8">
+	<title>
+		FreeLife - Officiel | discord.gg/FreeLife
+	</title>
+	<meta content="" name="description">
+	<meta content="" name="author">
+	<meta content="" name="keywords">
+	<meta
+		content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+		name="viewport">
+	<link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/css.css" rel="stylesheet">
+	<link href="css/fontawesome-all.min.css" media="all" rel="stylesheet" type="text/css">
+	<link href="css/colors/yellow-2.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+
+	<link
+		href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700"
+		rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+	<!--  <div class="film-grain"></div> -->
+
+	<div id="overlaylulz"></div>
+	<div id="overlaylulz2"></div>
+	<div id="preloader">
+		<div id="preloader-status">
+			<div class="preloader-position preloader-effect">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<div class="hero-fullscreen hero-bg">
+		<div class="slide-YT hero-fullscreen">
+			<div class="slide bg-img-YT"></div>
+			<div id="videoContainment"></div><a class="player"
+			 id="videoContainment"></div><a class="player" data-property="{videoURL:'https://youtu.be/YXRq6R4c5gk', mute:true, showControls:false, quality:'default', opacity:1, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:0, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}" id="bgndVideo"></a>
+				id="bgndVideo"></a>
+		</div>
+		<div class="preload-content"></div>
+	</div>
+	<div class="menu-trigger top-position" id="menu">
+		<button class="lines-button minus menu-toggle" id="main-menu-caller" type="button"><span
+				class="lines"></span></button>
+	</div>
+	<svg id="cursor" width="30" height="30">
+		<defs>
+			<linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+				<stop offset="0%" stop-color="#f2c061"></stop>
+				<stop offset="100%" stop-color="#da1b60"></stop>
+			</linearGradient>
+		</defs>
+		<circle r="13" cx="15" cy="15" fill="none"></circle>
+		<line x1="0" y1="0" x2="30" y2="30"></line>
+		<line x1="0" y1="30" x2="30" y2="0"></line>
+	</svg>
+	<div id="ui-layer">
+		<div id="menu-wrapper">
+			<div id="main-menu">
+				<div class="menu-nav-wrapper">
+					<nav class="menu-nav">
+						<ul class="brackets">
+							<li class="menu">
+								<a class="menu-state active" href="#" id="fire-home">Accueil</a>
+							</li>
+							<li class="menu">
+								<a class="menu-state" href="#" id="fire-services">Annonces</a>
+							</li>
+							<li class="menu">
+								<a class="menu-state" href="#" id="fire-contact">Staff</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="upper-page current" id="home">
+		<div class="logo top-position"></div>
+
+		<div class="line-left left-position"></div>
+
+		<div class="line-right right-position">
+			<a href="#">FreeLife</a>
+		</div>
+
+		<div class="transparent-borders OFF"></div>
+
+		<div class="center-container-home">
+
+			<div class="center-block-home">
+
+				<div class="upper-content">
+
+					<div class="container sections">
+
+						<div class="row">
+
+							<div class="fin-wrapper introduction">
+
+								<div class="fin-slides-wrapper">
+									<ul class="fin-slides">
+										<li>
+											<h3>
+												Rejoindre le discord est obligatoire !
+											</h3>
+										</li>
+										<li>
+											<h3>
+												Veuillez respecter le règlement à la lettre !
+											</h3>
+										</li>
+										<li>
+											<h3>
+												discord.gg/FreeLife
+											</h3>
+										</li>
+										<li>
+											<h3>
+												/report ou ticket en cas de problème !
+											</h3>
+										</li>
+									</ul>
+								</div>
+								<div class="fin-heading">
+									<h1 class="fin-heading">
+										FreeLife
+									</h1>
+								</div>
+								<div class="fin-subheading">
+									&middot; discord.gg/FreeLife &middot;
+									<audio id='muzica' volume='0.1' autoplay controls controlsList="nodownload">
+
+										<source src="lalala.mp3" type="audio/mpeg">
+
+									</audio>
+									<script>
+										const ip = "cfx.re/join/lld4p4"
+										var audio = document.getElementById("muzica");
+
+										audio.pause();
+										audio.volume = 0.1;
+
+										audio.onpause = function() {
+											fetch(`http://${ip}/fl_base/saveMusic`, {
+												method: 'POST',
+												headers: {
+													'Content-Type': 'application/json; charset=UTF-8',
+												},
+												body: JSON.stringify({
+													music: 'true'
+												})
+											});
+										};
+
+										audio.onplay = function() {
+											fetch(`http://${ip}/fl_base/saveMusic`, {
+												method: 'POST',
+												headers: {
+													'Content-Type': 'application/json; charset=UTF-8',
+												},
+												body: JSON.stringify({
+													music: 'true'
+												})
+											});
+										};
+
+										var wasMuted = false
+										audio.onvolumechange = function() {
+											if (audio.volume > 0 && wasMuted) {
+												wasMuted = false;
+												audio.play();
+											} else if(!wasMuted) {
+												wasMuted = true;
+												audio.pause();
+											}
+										};
+
+										fetch(`http://${ip}/fl_base/getMusic`, {
+											method: 'POST',
+											headers: {
+												'Content-Type': 'application/json; charset=UTF-8',
+											},
+											body: JSON.stringify({
+												ok: 'true'
+											})
+										}).then(resp => resp.json())
+										.then(respJson => {;
+											console.log("getMusic : " + respJson);
+											if (respJson.music) {
+												console.log("Last time was it was muted");
+												audio.pause();
+											} else {
+												console.log("Last time it was sound");
+												audio.muted = false;
+												audio.play();
+											}
+										});
+									</script>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="lower-page" id="services">
+
+		<div class="center-container">
+
+			<div class="center-block">
+
+				<div class="lower-content">
+
+					<div class="container sections">
+
+						<div class="row">
+							<h4>
+								//
+							</h4>
+							<h2>
+								Annonces <span class="get-behind">REGLES RECENTES</span>
+							</h2>
+						</div>
+
+						<div class="row">
+
+							<div class="dividerOT"></div><!-- divider end -->
+						</div>
+
+						<div class="services-columns">
+
+							<div class="row">
+								<div class="col-md-6 services-padding mb40">
+									<h5>
+										<span class="awesome">NO</span>Fear
+									</h5>
+									<p>
+										&middot; Si je suis braqué par une arme à feu, peu importe mon BG de perso, je
+										joue le FEAR.
+										<br> &middot; Interdit de Kidnapper / Otage un POLICIER sans dossier ! J'AI PEUR
+										DE LA POLICE.
+										<br> &middot; Je braque que 2 superettes max par semaines et par groupes car
+										J'AI PEUR DE ME FAIRE
+										ATTRAPER.
+										<br> &middot; Je ne me balade pas h24 armé en jeu ! Si je n'ai pas de PPA le
+										port d'une arme reste
+										occasionnel.
+									</p>
+								</div>
+								<div class="col-md-6 services-padding border-left-services mb40">
+									<h5>
+										<span class="awesome">Power</span> Gaming
+									</h5>
+									<p>
+										&middot; Interdit de grimper des montagnes avec des véhicules non adaptés!
+										<br> &middot; Si je fais un accident relativement GRAVE, je m'arrête et fait un
+										appel mécano +
+										médecin.
+										<br> &middot; Lorsque je tombe K.O suite à une bagarre ou autre, je ne me relève
+										pas pour rendre les
+										coups directement... Je joue mon PAIN RP.
+									</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6 services-padding border-top-services mt40">
+									<h5>
+										<span class="awesome">Anti</span> FairPlay
+									</h5>
+									<p>
+										&middot; Le FREELOOT est strictement interdit sur le serveur <br> &middot; Les
+										tirs dans la tête
+										sont STRICTEMENT INDERDIT <br> &middot; Prise d'otage = 3 otages maximum <br>
+										&middot; Il est
+										interdit de voler plus de 1000 dollars par jour à un seul et même joueur. <br>
+										&middot; 8 joueur
+										maximum sur une scène illégale <br> &middot; Les alliances entre gangs sont
+										INTERDITES, seul le
+										business est toléré.
+									</p>
+								</div>
+								<div class="col-md-6 services-padding border-left-services border-top-services mt40">
+									<h5>
+										<span class="awesome">Anti</span> Jeu
+									</h5>
+									<p>
+										&middot; Lorsque je suis connecté en jeux, je ne suis sur AUCUN LIVE (amis,
+										frère, soeur etc.. osef)
+										MEME SI C'EST PASSIF !. <br> &middot; Il est déconseillé de regarder toutes
+										rediff / best of.
+										<br>&middot; LES CROSSHAIRS ou toutes autres aide à la visée SONT INTERDIT en
+										jeux (2 bans def sont
+										tombés cette semaines...)<br>&middot; Tout logiciel externe au jeux apportant
+										une aide ou une triche
+										est interdit !
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="lower-page" id="contact">
+
+		<div class="center-container">
+
+			<div class="center-block">
+
+				<div class="lower-content">
+
+					<div class="container sections">
+
+						<div class="row">
+							<h4>
+								//
+							</h4>
+							<h2>
+								Staff <span class="get-behind">Staff</span>
+							</h2>
+						</div>
+
+						<div class="row">
+
+							<div class="dividerOT"></div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-4">
+								<span class="awesome-contact"><i class="fab fa-discord"></i></span>
+									<p>
+									Elyes<br>
+									<a>Farees#6654</a>
+									<p>
+									Kayros<br>
+									<a>Kayros#0949</a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+									<p>
+									<br>
+									<a></a>
+								  </p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+	<script src="js/plugins.js" type="text/javascript"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

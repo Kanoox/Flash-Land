@@ -1,0 +1,208 @@
+Version 165 32
+{
+	Shaders
+	{
+		default.sps
+		{
+			DiffuseSampler km_v_fnk_laminat
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler gz_v_ct_wood01
+			SpecularFalloffMult 123.0335999
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1631000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler prop_metal_black_02
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler os_v_fh_floortile_d
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler gz_v_bs_paintwood
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		spec.sps
+		{
+			DiffuseSampler nxg_tl_v_michael_wall1
+			SpecSampler nxg_tl_v_michael_wall1_s
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 136.2431946
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1845000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler tl_v_psycheoffice_wall2
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal.sps
+		{
+			BumpSampler mh_v_fh_brickwall_n
+			DiffuseSampler mh_v_fh_brickwall_d
+			Bumpiness 2.3180001
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 50.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler 325_original
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler os_v_trev_floortiles_d
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal.sps
+		{
+			BumpSampler plt_n
+			DiffuseSampler plt
+			Bumpiness 1.7170000
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler gz_dlc_aph_floor_wood2
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler gz_v_fa_wallpaper11
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler walls_room1_n
+			DiffuseSampler walls_room1
+			SpecSampler walls_room1_s
+			Bumpiness 1.3730000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 134.0415955
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.2017000
+			UseTessellation 0.0000000
+		}
+		normal.sps
+		{
+			BumpSampler hills_shell\leather_cream_01b_nm.otx
+			DiffuseSampler hills_shell\leather_cream_01b_dm.otx
+			Bumpiness 1.1589999
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler mh_v_trev_wallpaper01_d
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler nxg_tl_v_michael_ceiling
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler im_concrete33
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal.sps
+		{
+			BumpSampler xj_v_concrete_vert_n
+			DiffuseSampler xj_v_concrete_vert
+			Bumpiness 1.2450000
+			HardAlphaBlend 1.0000000
+			SpecularFalloffMult 37.3759995
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.0601000
+			UseTessellation 0.0000000
+		}
+		glass_pv_env.sps
+		{
+			DiffuseSampler hills_shell\v_glass_d_darkgreen.otx
+			BrokenDiffuseColor 0.4600000 0.6117650 0.6117650 0.5686270
+			BrokenSpecularColor 0.4600000 0.6117650 0.6117650 1.0000000
+			DecalTint 1.0000000 1.0000000 1.0000000 1.0000000
+			SpecularFalloffMult 325.2224121
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 0.8755000
+			UseTessellation 0.0000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler sfqm
+			SpecularFalloffMult 307.2000122
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 0.5193000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler hills_shell\ja_rn_conc_wall.otx
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+		}
+		spec.sps
+		{
+			DiffuseSampler hills_shell\BH1_48_RSN_AM_garage_1.otx
+			SpecSampler hills_shell\BH1_48_RSN_AM_garage_1.otx
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 1.0000000 1.0000000
+			SpecularFalloffMult 30.0000000
+			SpecularFresnel 0.8000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			hills_shell\hills_shell_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -13.5782804 -18.4185600 -3.8470271
+		AABBMax 13.5782804 18.4185600 3.5892100
+		Radius 23.1827
+		Center 0.0000000 0.0000000 -0.1289084
+	}
+	Light null
+	Bound null
+	Joints null
+}

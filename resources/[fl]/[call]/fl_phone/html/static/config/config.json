@@ -1,0 +1,391 @@
+{
+  "reseau": "FreeLife",
+  "warningMessageCount": 5000,
+  "themeColor": "#0079d3",
+  "colors": [
+    "#EF5350",
+    "#EC407A",
+    "#AB47BC",
+    "#7E57C2",
+    "#5C6BC0",
+    "#42A5F5",
+    "#29B6F6",
+    "#26C6DA",
+    "#26A69A",
+    "#66BB6A",
+    "#9CCC65",
+    "#D4E157",
+    "#FFCA28",
+    "#FFA726",
+    "#FF7043",
+    "#8D6E63",
+    "#78909C"
+  ],
+
+  "useFormatNumberFrance": false,
+
+  "//": "REQUIRE https://github.com/citizenfx/screenshot-basic or set false",
+  "enableTakePhoto": true,
+  "fileUploadService_Url": "https://api.imgur.com/3/upload",
+  "fileUploadService_Field": "imgur",
+
+  "background": {
+    "Fond d'écran 1": "back001.jpg",
+    "Fond d'écran 2": "back002.jpg",
+    "Fond d'écran 3": "back003.jpg",
+    "Fond d'écran 4": "back004.jpg",
+    "Fond d'écran 5": "back005.jpg",
+    "Fond d'écran 6": "back006.jpg",
+    "Fond d'écran 7": "back007.jpg",
+    "Custom URL": "URL"
+  },
+  "background_default": {
+    "label": "Fond d'écran 7",
+    "value": "back007.jpg"
+  },
+
+
+  "coque": {
+    "iPhone X": "iphonex.png"
+  },
+  "coque_default": {
+    "label": "iPhone",
+    "value": "iphonex.png"
+  },
+
+
+  "serviceCall": [
+    {
+      "display": "Police",
+      "icon": "/html/static/img/icons_app/police.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "police"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Ambulance",
+      "icon": "/html/static/img/icons_app/ambulance.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "ambulance"
+          }
+        }
+      ]
+    },
+    {
+      "display": "UberEats",
+      "icon": "/html/static/img/icons_app/ubereats.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "ubereats"
+          }
+        }
+      ]
+    },
+    {
+      "display": "BurgerShot",
+      "icon": "/html/static/img/icons_app/burgershot.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "burgershot"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Avocat",
+      "icon": "/html/static/img/icons_app/avocat.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "avocat"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Gouvernement",
+      "icon": "/html/static/img/icons_app/governement.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "gouv"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Mécanicien",
+      "icon": "/html/static/img/icons_app/mechanic.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "mechanic"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Green Motor's",
+      "icon": "/html/static/img/icons_app/greenmotors.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "greenmotors"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Taxi",
+      "icon": "/html/static/img/icons_app/taxi.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "taxi"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Weazel News",
+      "icon": "/html/static/img/icons_app/weazel.png",
+      "letter": "W",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "journaliste"
+          }
+        }
+      ]
+    },
+    {
+      "display": "Sixt",
+      "icon": "/html/static/img/icons_app/sixt.png",
+      "subMenu": [
+        {
+          "title": "Envoyer un message",
+          "eventName": "fl_phone:internal_call",
+          "type": {
+            "number": "sixt"
+          }
+        }
+      ]
+    }
+  ],
+
+  "apps": [
+    {
+      "name": "Téléphone",
+      "fr_FR__name": "Téléphone",
+      "icons": "/html/static/img/icons_app/call.png",
+      "routeName": "appels",
+      "inHomePage": true
+    },
+    {
+      "name": "Messages",
+      "fr_FR__name": "Messages",
+      "icons": "/html/static/img/icons_app/sms.png",
+      "routeName": "messages",
+      "inHomePage": true,
+      "puceRef": "nbMessagesUnread"
+    },
+    {
+      "name": "Contacts",
+      "fr_FR__name": "Contacts",
+      "icons": "/html/static/img/icons_app/contacts.png",
+      "routeName": "contacts",
+      "inHomePage": true
+    },
+    {
+      "name": "Paramètres",
+      "fr_FR__name": "Paramètres",
+      "icons": "/html/static/img/icons_app/settings.png",
+      "routeName": "parametre",
+      "inHomePage": true
+    },
+    {
+      "name": "Notes",
+      "fr_FR__name": "Notes ",
+      "routeName": "notes",
+      "icons": "/html/static/img/icons_app/notes.png"
+
+    },
+    {
+      "name": "Banque",
+      "fr_FR__name": "Banque",
+      "icons": "/html/static/img/icons_app/bank.png",
+      "routeName": "bank",
+      "inHomePage": false
+    },
+    {
+      "name": "Caméra",
+      "fr_FR__name": "Caméra",
+      "icons": "/html/static/img/icons_app/photo.png",
+      "routeName": "photo"
+    },
+    {
+      "name": "Calculator",
+      "fr_FR__name": "Calculatrice",
+      "icons": "/html/static/img/icons_app/calculatrice.png",
+      "routeName": "calculator"
+    },
+    {
+      "name": "Timer",
+      "fr_FR__name": "Timer",
+      "icons": "/html/static/img/icons_app/timer.png",
+      "routeName": "timer"
+    },
+    {
+      "name": "Tchat",
+      "fr_FR__name": "Dark Chat",
+      "icons": "/html/static/img/icons_app/tchat.png",
+      "routeName": "tchat"
+    }
+  ],
+  "defaultLanguage": "fr_FR",
+  "language": {
+     "fr_FR": {
+      "NAME": "Français",
+      "PHONE_WARNING_MESSAGE": "Saturation mémoire !",
+      "PHONE_WARNING_MESSAGE_MESS": "messages",
+      "CONFIRM": "Accepter",
+      "CANCEL": "Annuler",
+      "APP_CONFIG_TITLE": "Paramètres",
+      "APP_CONFIG_MY_MUNBER": "Mon numéro",
+      "APP_CONFIG_SIM": "Carte SIM",
+      "APP_CONFIG_WALLPAPER": "Fond d'écran",
+      "APP_CONFIG_CASE": "Coque téléhone",
+      "APP_CONFIG_ZOOM": "Zoom",
+      "APP_CONFIG_VOLUME": "Volume",
+      "APP_CONFIG_LANGUAGE": "Langue",
+      "APP_CONFIG_AIRPLANE_MODE": "Mode Avion",
+      "APP_CONFIG_MOUSE_SUPPORT": "Controle souris",
+      "APP_CONFIG_RESET": "Formater",
+      "APP_CONFIG_RESET_CONFIRM": "TOUT SUPPRIMER",
+      "APP_PHONE_CALL": "Appeler",
+      "APP_PHONE_CALL_ANONYMOUS": "Appeler en anomyne",
+      "APP_PHONE_DELETE": "Effacer",
+      "APP_PHONE_DELETE_ALL": "Effacer TOUT.",
+      "APP_PHONE_TITLE": "Téléphone",
+      "APP_PHONE_MENU_FAVORITES": "Favoris",
+      "APP_PHONE_MENU_RECENTS": "Récents",
+      "APP_PHONE_MENU_CONTACTS": "Contacts",
+      "APP_PHONE_ENTER_NUMBER": "Appeler un Numéro",
+      "APP_PHONE_NUMBER_HIDDEN": "Numéro masqué",
+      "APP_PHONE_NUMBER_UNKNOWN": "Inconnu",
+      "APP_PHONE_CALL_IGNORE": "Ignorée",
+      "APP_BANK_TITLE": "Banque",
+      "APP_BOURSE_TITLE": "Bourse",
+      "APP_CONTACT_TITLE": "Contact",
+      "APP_CONTACT_NEW": "Nouveau Contact",
+      "APP_CONTACT_EDIT": "Modifier le contact",
+      "APP_PHONE_ADD": "Ajouter le Numéro",
+      "APP_CONTACT_SAVE": "Enregistrer",
+      "APP_CONTACT_CANCEL": "Annuler",
+      "APP_CONTACT_DELETE": "Supprimer",
+      "APP_CONTACT_LABEL_NAME": "Prénom - Nom",
+      "APP_CONTACT_LABEL_NUMBER": "Numéro",
+      "APP_MESSAGE_TITLE": "Messages",
+      "APP_MESSAGE_NEW_MESSAGE": "Nouveau Message",
+      "APP_MESSAGE_ERASE_CONVERSATION": "Effacer la conversation",
+      "APP_MESSAGE_ERASE_ALL_CONVERSATIONS": "Effacer toutes les conv.",
+      "APP_MESSAGE_SEND_GPS": "Envoyer Coord GPS",
+      "APP_MESSAGE_SEND_PHOTO": "Envoyer une photo",
+      "APP_MESSAGE_SET_GPS": "Position GPS",
+      "APP_MESSAGE_ZOOM_IMG": "Zoom",
+      "APP_MESSAGE_DELETE": "Effacer",
+      "APP_MESSAGE_MESS_NUMBER": "Numero ",
+      "APP_MESSAGE_MESS_SMS": "SMS",
+      "APP_MESSAGE_MESS_CALL": "Appeler",
+      "APP_MESSAGE_MESS_COPY": "Copier",
+      "APP_MESSAGE_CONTACT_TITLE": "Contacts",
+      "APP_MESSAGE_CONTRACT_ENTER_NUMBER": "Enter un numero",
+      "APP_MESSAGE_PLACEHOLDER_ENTER_MESSAGE": "Envoyer un message",
+      "APP_DARKTCHAT_TITLE": "Dark Tchat",
+      "APP_DARKTCHAT_NEW_CHANNEL": "Ajouter un channel",
+      "APP_DARKTCHAT_DELETE_CHANNEL": "Effacer le channel",
+      "APP_DARKTCHAT_CANCEL": "Annuler",
+      "APP_DARKTCHAT_PLACEHOLDER_ENTER_MESSAGE": "Entrer un message",
+      "APP_TWITTER_NAME": "Twitter",
+      "APP_TWITTER_VIEW_TWITTER": "Twitter",
+      "APP_TWITTER_VIEW_TOP_TWEETS": "Top Tweets",
+      "APP_TWITTER_VIEW_TWEETER": "Tweeter",
+      "APP_TWITTER_VIEW_SETTING": "Paramètre",
+      "APP_TWITTER_NEW_ACCOUNT_USERNAME": "Nom utilisateur (>= 4)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD": "Mot de passe (>= 6)",
+      "APP_TWITTER_NEW_ACCOUNT_PASSWORD_CONFIRM": "Confirmer mot de passe",
+      "APP_TWITTER_NEW_ACCOUNT_AVATAR": "Url de votre avatar",
+      "APP_TWITTER_PLACEHOLDER_MESSAGE": "Quoi de neuf ?",
+      "APP_TWITTER_BUTTON_ACTION_TWEETER": "Tweeter",
+      "APP_TWITTER_ACCOUNT_LOGIN": "Se connecter",
+      "APP_TWITTER_ACCOUNT_LOGOUT": "Se déconnecter",
+      "APP_TWITTER_ACCOUNT_PARAM": "Mon compte",
+      "APP_TWITTER_ACCOUNT_AVATAR": "Changer l'avatar",
+      "APP_TWITTER_ACCOUNT_CHANGE_PASSWORD": "Changer Mot de passe",
+      "APP_TWITTER_ACCOUNT_NEW": "Nouveau compte",
+      "APP_TWIITER_ACCOUNT_SAVE": "Enregistrer",
+      "APP_TWIITER_ACCOUNT_CREATE": "Créer le compte",
+      "APP_TWIITER_ACCOUNT_CANCEL": "Annuler",
+      "APP_TWITTER_ACCOUNT_USERNAME": "Nom utilisateur",
+      "APP_TWITTER_ACCOUNT_PASSWORD": "Mot de passe",
+      "APP_TWITTER_NOTIFICATION": "Notification",
+      "APP_TWITTER_NOTIFICATION_WHEN": "Etre notification",
+      "APP_TWITTER_NOTIFICATION_ALL": "Tous les messages",
+      "APP_TWITTER_NOTIFICATION_MENTION": "Mentions seulement",
+      "APP_TWITTER_NOTIFICATION_NEVER": "Aucun",
+      "APP_TWITTER_NOTIFICATION_SOUND": "Jouer un son",
+      "APP_NOTES": "Notes",
+      "APP_TWITTER_NOTIFICATION_SOUND_YES": "Oui",
+      "APP_TWITTER_NOTIFICATION_SOUND_NO": "Non",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_SUCCESS": "Votre compte Twitter à été crée",
+      "APP_TWITTER_NOTIF_ACCOUNT_CREATE_ERROR": "Votre compte Twitter n'à pas pu été crée (Pseudo déjà utilisé ?)",
+      "APP_TWITTER_NOTIF_LOGIN_SUCCESS": "Vous ête connectée à twitter",
+      "APP_TWITTER_NOTIF_LOGIN_ERROR": "Compte / Mots de passe non valide",
+      "APP_TWITTER_NOTIF_AVATAR_SUCCESS": "Votre avatar à été changer !",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_SUCCESS": "Votre mot de passe a été modifié",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_ERROR": "Oups ... votre mot de passe n'a pas pu être modifié",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_MISS_MATCH": "Les mots de passe ne corresponde pas",
+      "APP_TWITTER_NOTIF_NEW_PASSWORD_LENGTH_ERROR": "Mot de passe trop court",
+
+
+      "TIMEAGO": [
+        "à l'instant",
+        ["il y a %s seconde", "il y a %s secondes"],
+        ["il y a %s minute", "il y a %s minutes"],
+        ["il y a %s heure", "il y a %s heures"],
+        ["il y a %s jour", "il y a %s jours"],
+        ["il y a %s semaine", "il y a %s semaines"],
+        ["il y a %s mois", "il y a %s mois"],
+        ["il y a %s an", "il y a %s ans"]
+      ]
+    }
+  }
+}

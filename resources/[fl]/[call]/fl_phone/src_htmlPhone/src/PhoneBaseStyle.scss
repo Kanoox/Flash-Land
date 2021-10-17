@@ -1,0 +1,107 @@
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.phone_infoBare {
+  height: 24px;
+}
+
+.phone_app{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone_title {
+  padding-left: 24px;
+  padding-top: 6px;
+  height: 64px;
+  line-height: 52px;
+  font-size: 24px;
+  font-weight: 500;
+  padding-left: 64px;
+}
+.phone_title .btn-back {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 16px;
+  top: 35px;
+  color: rgba(255,255,255, 0.7);
+  outline: none;
+  text-shadow: none;
+  text-align: center;
+}
+.phone_title .btn-back:hover {
+  background-color: rgba(255,255,255, 0.3);
+  color: white;
+}
+
+.phone_content {
+  position: absolute;
+  left: 0; right: 0;
+  top: 100px;
+  bottom: 100px;
+  margin-top: 15px;
+  background-size: initial;
+  background-color: rgb(22, 22, 22);
+}
+
+.phone_wrapper {
+  position: absolute;
+  bottom: 0vh;
+  right: 0vh;
+  width: 500px;
+  height: 1000px;
+  background-size: cover;
+}
+
+.phone_coque{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background-size: cover
+}
+
+.phone_screen{
+  overflow: hidden;
+  position: absolute;
+  background-color: rgb(22, 22, 22);
+  bottom: 31px;
+  left: 34px;
+  right: 33px;
+  top: 30px;
+  display: flex;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+*::-webkit-scrollbar
+{
+    width: 3px;
+    background-color: transparent;
+}
+*::-webkit-scrollbar-thumb
+{
+    background-color: #666;
+}

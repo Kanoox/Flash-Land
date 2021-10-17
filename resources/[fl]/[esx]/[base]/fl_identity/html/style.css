@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+
+body {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  color: white;
+  font-weight: 300;
+	margin: 0;
+  padding: 0;
+	overflow: hidden;
+	display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+.wrapper {
+	background-image: url('https://image.ibb.co/cmHPUJ/background.jpg');
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.wrapper.form-success .container h1 {
+  transform: translateY(85px);
+}
+.dialog {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 80px 0;
+  height: 1000px;
+  text-align: center;
+}
+h1 {
+  display: block;
+	font-size: 40px;
+  margin-top: 5px;
+	margin-right: 5px;
+  padding: 10px;
+  width: 100%;
+	text-align: center;
+}
+h2 {
+  display: block;
+  margin-top: 5px;
+	margin-right: 5px;
+  padding: 10px;
+  width: 100%;
+	text-align: center;
+}
+h3 {
+  display: block;
+  margin-top: 1px;
+	margin-right: 5px;
+  width: 100%;
+	text-align: center;
+}
+form {
+  padding: 20px 0;
+  position: relative;
+  z-index: 2;
+}
+input {
+	appearance: none;
+  outline: 0;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 300px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  transition-duration: 0.25s;
+  font-weight: 300;
+}
+input:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+input:focus {
+  background-color: white;
+  width: 350px;
+  color: #000;
+}
+button {
+	appearance: none;
+  outline: 0;
+  background-color: white;
+  border: 0;
+  padding: 10px 15px;
+  color: #f77925;
+  border-radius: 3px;
+  width: 300px;
+  font-size: 18px;
+  transition-duration: 0.25s;
+	margin: 10px auto 10px auto;
+  display: block;
+  text-align: center;
+}
+button:hover {
+  color: white;
+	background-color: #f77925;
+}
+
