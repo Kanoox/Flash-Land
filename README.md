@@ -1,18 +1,3 @@
-<div align="center">
-  <br />
-  <p>
-    <a href="Faster"><img src="https://cdn.discordapp.com/icons/744929326058700821/f79b75bba9b743a8994311e4d710acb0.png" width="546" alt="discord.js" /></a>
-  </p>
-  <br />
-  <p>
-    <a href="https://discord.gg/UwfF6e3yfT"><img src="https://img.shields.io/discord/744929326058700821?color=5865F2&logo=discord&logoColor=white" alt="Discord Faster" /></a>
-    <!-- <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/v/discord.js.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord.js"><img src="https://img.shields.io/npm/dt/discord.js.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://github.com/discordjs/discord.js/actions"><img src="https://github.com/discordjs/discord.js/workflows/Testing/badge.svg" alt="Build status" /></a>
-    <a href="https://www.patreon.com/discordjs"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a> -->
-  </p>
-</div>
-
 ## Informations
 
 Ceci est un leak de la base FreeLife qui elle est construite avec la base de FlashLand V6
@@ -80,7 +65,7 @@ Config.webhooks = {
 - Ce sont des logs pour la facturation.
 
 - Rendez-vous dans la resource `fl_bans` qui se trouve dans le dossier `resources/[fl]/[core]`
-- Modifiez les 2 webhooks aux lignes 3 et 4 du fichier `fl_bans/config.lua`. 
+> Modifiez les 2 webhooks aux lignes 3 et 4 du fichier `fl_bans/config.lua`. 
 - Ce sont des logs pour les bans et unbans.
 
 - Rendez-vous dans la resource `fl_society` qui se trouve dans le dossier `resources/[fl]/[esx]/[base]`
