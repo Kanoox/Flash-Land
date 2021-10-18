@@ -1,0 +1,33 @@
+# Server.cfg
+server.cfg
+
+# Crashes Dump
+crashes/
+
+# Crashes Dump
+alpine/
+
+# Cache
+cache/
+
+#DB
+db/
+
+# Crashes Dump
+citizen/
+
+start.bat
+run.cmd
+*.dll
+server-tls.key
+server-tls.crt
+server-monitor-token.key
+icudtl.dat
+FXServer.exe
+components.json
+resources/[anticheat]/esx_label2/banData/
+resources/[anticheat]/esx_label2/logs/
+
+*.txt
+server.cfg.bkp
+resources/[system]/[builders]/webpack/yarn-error.log

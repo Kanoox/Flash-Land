@@ -85,7 +85,7 @@ Config.webhooks = {
 
 - Cette base utilise un Framework personnalisé ce qui veut dire que si vous importez/exportez des resources, vous devrez vous assurer d'utiliser les bonnes méthodes d'importation du ESX.
 - Il est possible qu'il manque plusieurs streams comme des véhicules ou mapping. C'est à vous de faire la recherche. 
-- N'hésitez pas à ouvrir un [issue](https://github.com/fasterplayer/Flash-Land/issues) discord si vous découvrez une erreur afin que je puisse la corriger pour les futurs utilisateurs.
+- N'hésitez pas à ouvrir un [issue](https://github.com/fasterplayer/Flash-Land/issues) si vous découvrez une erreur afin que je puisse la corriger pour les futurs utilisateurs.
 
 
 ## Vous cherchez le meilleur bot pour votre serveur RP?
