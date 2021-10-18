@@ -12,4 +12,3 @@ dependencies {
 	'es_extended',
 }
 
-client_script '@WaveShield/xDxDxDxDxD.lua'

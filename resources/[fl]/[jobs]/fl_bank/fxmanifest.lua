@@ -37,8 +37,7 @@ server_scripts {
 	'server/sv_debug.lua',
 }
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

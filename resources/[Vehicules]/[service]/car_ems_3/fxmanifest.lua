@@ -15,8 +15,7 @@ data_file 'VEHICLE_VARIATION_FILE' 'carvariations.meta'
  
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

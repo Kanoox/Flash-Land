@@ -24,4 +24,3 @@ data_file 'DLC_ITYP_REQUEST' 'vw_prop_vw_tables.ytyp'
 data_file 'DLC_ITYP_REQUEST' 'vw_prop_vw_turntable.ytyp'
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'

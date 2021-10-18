@@ -12,8 +12,7 @@ game 'common'
 server_script 'yarn_builder.js'
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

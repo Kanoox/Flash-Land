@@ -12,8 +12,7 @@ server_scripts {
 	'server/main.lua'
 }
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

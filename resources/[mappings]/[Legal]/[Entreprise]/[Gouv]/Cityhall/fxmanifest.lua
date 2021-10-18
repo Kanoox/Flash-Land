@@ -9,8 +9,7 @@ data_file 'DLC_ITYP_REQUEST' 'int_mp_cityhall.ytyp'
 
 ---LiamInChains#9999 Was here
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

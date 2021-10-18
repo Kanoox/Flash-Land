@@ -38,8 +38,7 @@ data_file 'VEHICLE_METADATA_FILE' 'data4/vehicles.meta'
 data_file 'CARCOLS_FILE' 'data4/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'data4/carvariations.meta'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

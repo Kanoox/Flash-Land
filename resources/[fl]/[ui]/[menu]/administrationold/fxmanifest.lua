@@ -49,4 +49,3 @@ dependencies {
 }
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'

@@ -17,8 +17,7 @@ data_file 'WEAPONINFO_FILE_PATCH' 'weapons.meta'
 data_file 'WEAPONINFO_FILE_PATCH' 'weaponsnowball.meta'
 data_file 'EXPLOSION_INFO_FILE' 'explosion.meta'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

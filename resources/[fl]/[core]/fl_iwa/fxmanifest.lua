@@ -88,8 +88,7 @@ data_file 'WEAPONINFO_FILE_PATCH' 'stream/recul/weaponspecialcarbine.meta'
 data_file 'WEAPONINFO_FILE_PATCH' 'stream/recul/weaponvintagepistol.meta'
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

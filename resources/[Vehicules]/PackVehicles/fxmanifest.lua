@@ -285,8 +285,7 @@ data_file 'CARCOLS_FILE' 'meta21b/carcols.meta'
 data_file 'VEHICLE_VARIATION_FILE' 'meta21b/carvariations.meta'
 data_file 'VEHICLE_LAYOUTS_FILE' 'meta21b/vehiclelayouts.meta'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

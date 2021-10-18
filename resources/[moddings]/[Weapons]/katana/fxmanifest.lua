@@ -21,8 +21,7 @@ data_file 'LOADOUTS_FILE' 'loadouts.meta'
 data_file 'TEXTFILE_METAFILE' 'dlctext.meta'
 data_file 'PED_PERSONALITY_FILE' 'pedpersonality.meta'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

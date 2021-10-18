@@ -42,8 +42,7 @@ data_file 'VEHICLE_VARIATION_FILE' 'data4/carvariations.meta'
 data_file 'HANDLING_FILE' 'data4/handling.meta'
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

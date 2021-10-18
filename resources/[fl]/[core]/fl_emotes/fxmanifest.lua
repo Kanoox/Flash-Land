@@ -25,8 +25,7 @@ dependencies {
 export 'OnEmotePlay'
 export 'EmoteCancel'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+

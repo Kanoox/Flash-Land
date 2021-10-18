@@ -8,8 +8,7 @@ data_file 'DLC_ITYP_REQUEST' 'vagos_props/stream/vagos_props.ytyp'
 
 
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
 
-client_script '@WaveShield/xDxDxDxDxD.lua'
+
+
