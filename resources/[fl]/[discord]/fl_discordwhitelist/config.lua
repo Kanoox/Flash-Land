@@ -11,7 +11,7 @@ Config = {
 
 Config.Points = {}
 
-Config.EmojiList = {}
+Config.EmojiList = {'',''}
 
 Config.NoSteam = 'Vous devez ouvrir votre steam pour jouer sur notre serveur.'
 
