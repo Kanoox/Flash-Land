@@ -25,6 +25,8 @@ Config.TimerCheckPlaces = 1
 
 Config.AddPoints = 1
 
+Config.TimerUpdatePoints = 1
+
 Config.RemovePoints = 1
 
 Config.EnRoute = ''
