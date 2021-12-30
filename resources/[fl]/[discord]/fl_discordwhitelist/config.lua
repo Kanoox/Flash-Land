@@ -44,3 +44,5 @@ Config.PleaseWait_1 = ''
 Config.PleaseWait_2 = ''
 
 Config.AntiSpamTimer = 1
+
+Config.EmojiBoost = 'Emoji Boost'
