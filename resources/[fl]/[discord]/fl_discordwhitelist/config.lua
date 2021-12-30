@@ -42,3 +42,5 @@ Config.LoterieBonusPoints = ''
 Config.PleaseWait_1 = ''
 
 Config.PleaseWait_2 = ''
+
+Config.AntiSpamTimer = 1
