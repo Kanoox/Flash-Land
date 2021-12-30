@@ -37,7 +37,7 @@ Config.Position = 'Position'
 
 Config.EmojiMsg = 'Emoji'
 
-Config.LoterieBonusPoints = ''
+Config.LoterieBonusPoints = 1
 
 Config.PleaseWait_1 = ''
 
