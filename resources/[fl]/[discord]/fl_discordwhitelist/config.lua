@@ -9,7 +9,7 @@ Config = {
 	}
 }
 
-Config.Points = 0
+Config.Points = {}
 
 Config.EmojiList = {}
 
